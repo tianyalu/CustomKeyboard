@@ -8,4 +8,6 @@
     <dimen name="keyboard_horizontalGap">1px</dimen>
     <dimen name="keyboard_verticalGap">1px</dimen>
     <dimen name="key_height_double">120dp</dimen>
+
+    <dimen name="key_height_small">54dp</dimen>
 </resources>

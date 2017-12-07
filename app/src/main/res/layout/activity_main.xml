@@ -22,6 +22,14 @@
         android:hint="@string/password"
         android:inputType="textPassword"/>
 
+    <LinearLayout
+        android:id="@+id/ll_point_container"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal"
+        android:gravity="center"></LinearLayout>
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -43,5 +51,19 @@
     <!-- 以下两种方式均可解决键盘数字模糊问题 -->
     <!-- android:shadowRadius="0.0" -->
     <!-- android:shadowColor="@color/transparent" -->
+
+        <!-- background是键盘按键之间的背景颜色-->
+        <android.inputmethodservice.KeyboardView
+            android:id="@+id/keyboard_view2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/gray"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:keyBackground="@drawable/bg_keyboard_selector"
+            android:keyTextColor="@color/keyTextColor"
+            android:visibility="gone"
+            android:shadowColor="@color/transparent" />
     </RelativeLayout>
 </LinearLayout>

@@ -10,5 +10,8 @@
     <color name="green">#00ff00</color>
     <color name="red">#ff0000</color>
 
+    <color name="keyPressedColor">#ECEEF4</color>
+    <color name="keyNormalColor">#F3F5FF</color>
+
     <color name="transparent">#00000000</color>
 </resources>

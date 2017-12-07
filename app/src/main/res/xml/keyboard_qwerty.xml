@@ -51,7 +51,7 @@
     <Row>
         <Key android:keyWidth="15%p" android:codes="-1"
              android:keyEdgeFlags="left" android:isModifier="true"
-             android:isSticky="true" android:keyIcon="@drawable/sym_keyboard_shift" />
+             android:isSticky="true" android:keyIcon="@mipmap/sym_keyboard_shift" />
         <Key android:codes="122" android:keyLabel="z" />
         <Key android:codes="120" android:keyLabel="x" />
         <Key android:codes="99" android:keyLabel="c" />
@@ -61,7 +61,7 @@
         <Key android:codes="109" android:keyLabel="m" />
         <Key android:keyWidth="14.999998%p" android:codes="-5"
              android:keyEdgeFlags="right" android:isRepeatable="true"
-             android:keyIcon="@drawable/sym_keyboard_delete" />
+             android:keyIcon="@mipmap/sym_keyboard_delete" />
     </Row>
 
     <Row android:rowEdgeFlags="bottom">
@@ -70,7 +70,7 @@
         <Key android:keyWidth="14.999998%p" android:codes="44"
              android:keyLabel="," />
         <Key android:keyWidth="29.999996%p" android:codes="32"
-             android:isRepeatable="true" android:keyIcon="@drawable/sym_keyboard_space" />
+             android:isRepeatable="true" android:keyIcon="@mipmap/sym_keyboard_space" />
         <Key android:keyWidth="14.999998%p" android:codes="46"
              android:keyLabel="." />
         <Key android:keyWidth="20.000004%p" android:codes="-3"
